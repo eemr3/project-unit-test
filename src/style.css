@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #d8d8d8;
+}
+
+body h2 {
+  font-size: 1.7rem;
+  margin-bottom: 7px;
+}
+header {
+  background-color: #036b52;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  color: aliceblue;
+  font-size: 3rem;
+  margin-bottom: 17px;
+}
+
+header p {
+  color: aliceblue;
+  font-size: 18px;
+}
+
+main {
+  margin: 40px auto;
+  width: 90%;
+}
+
+ul li {
+  text-transform: capitalize;
+  list-style: none;
+  line-height: 25px;
+}
+
+footer {
+  background-color: #036b52;
+  bottom: 0;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  padding: 30px;
+  position: fixed;
+  width: 100%;
+}
+
+#order-list #order-title {
+  border-bottom: 1px solid rebeccapurple;
+  font-size: 1.5rem;
+  font-weight: 700;
+  list-style: none;
+  margin: 5px 0 5px;
+  padding-left: 0;
+}
+
+#pedido #order-total {
+  border-bottom: 1px solid rebeccapurple;
+  font-size: 1.5rem;
+  font-weight: 700;
+  list-style: none;
+  margin: 5px 0 5px;
+  padding-left: 0;
+}
+
+#menu {
+  border: 1px solid black;
+  max-width: 40%;
+  padding: 5px 15px;
+}
+
+#pedido {
+  border: 1px solid black;
+  width: 40%;
+  padding: 5px 15px;
+}
+
+#total-order {
+  background-color: #036b53d3;
+  border: none;
+  border-radius: 4px;
+  color: #d8d8d8;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  padding: 8px;
+  transition: 0.3s background-color;
+  width: 230px;
+}
+
+#total-order:hover {
+  background-color: #1b856cd3;
+}
+
+.list-title {
+  border-bottom: 1px solid rebeccapurple;
+  font-size: 1.5rem;
+  font-weight: 700;
+  list-style: none;
+  margin: 5px 0 5px;
+  padding-left: 0;
+}
+
+.menu-and-order {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.menu-and-order div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.order-input__input {
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.order-input__button {
+  background-color: #036b53d3;
+  border: none;
+  border-radius: 4px;
+  color: #d8d8d8;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 8px;
+  transition: 0.3s background-color;
+  width: 100%;
+}
+
+.order-input__button:hover {
+  background-color: #1b856cd3;
+}

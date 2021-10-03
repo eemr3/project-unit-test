@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>-* Trybar *-</title>
+  </head>
+  <body>
+    <header>
+      <h1>Trybar</h1>
+      <p>Bem vindo ao cantinho Nerd mais aconchegante do Brasil!</p>
+    </header>
+    <main>
+      <section class="menu-and-order">
+        <div>
+          <h2>Nosso Cardápio</h2>
+          <ul id="menu">
+            <ul id="food">
+              <li class="list-title">Comidas</li>
+            </ul>
+            <ul id="drinks">
+              <li class="list-title">Bebidas</li>
+            </ul>
+          </ul>
+        </div>
+        <div>
+          <h2>Faça seu pedido</h2>
+          <div class="order-input">
+            <input type="text" class="order-input__input" />
+            <button class="order-input__button">Criar</button>
+          </div>
+        </div>
+        <div id="content-order">
+          <h2>Seu(s) pedido(s)</h2>
+          <ul id="pedido">
+            <ul id="order-list">
+              <li id="order-title">Pedidos</li>
+            </ul>
+            <li id="order-total">Total</li>
+            <ul id="order-value"></ul>
+          </ul>
+          <!-- <button id="total-order">Total do pedido</button> -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div><p>Desenvolvido com muito 💓 por Emerson Moreira</p></div>
+    </footer>
+
+    <script src="restaurant.js"></script>
+  </body>
+</html>
